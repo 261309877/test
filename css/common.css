@@ -1,0 +1,57 @@
+/********CSS RESET*********/
+body,h1,h2,h3,h4,h5,h6,hr,p,div,span,select,table,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+ul,ol,li,dl,dt,dd{list-style:none;}
+fieldset,img{border:0;}
+a{text-decoration:none;}
+body{font:100 16px/1.5 'Î¢ÈíÑÅºÚ','ËÎÌå',Arial, Helvetica, sans-serif; color:#666666; background:#f5f5f5; width:480px; margin:0 auto;}
+/****************Public CSS******************/
+.wid{ width:100%; margin:0 auto;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{clear:both; height:0px; line-height:0px; font-size:0px;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.tc{text-align:center}
+.fs_a{font-size:16px;}
+.fs_b{font-size:18px;}
+.fs_c{font-size:20px;}
+.fs_d{font-size:22px;}
+.cgreen_a{color:#348a00}
+.cgreen_b{color:#64ac38}
+.cgray_a{color:#646464}
+.cgray_b{color:#b4b4b4}
+.cgray_c{color:#505050}
+
+.gone{display:none}
+.clip_text{overflow:hidden;white-space:nowrap}
+
+/*************Public header CSS****************/
+.header{height:255px;}
+.header .login{height:51px; background:#CCCC33; border-bottom:1px solid #FF9900; text-align:right;}
+.header .login p{padding-right:25px; line-height:50px; font-size:20px; color:#FF9900;}
+.header .login p a{padding-left:25px; color:#CC3300;}
+.header .version{height:96px; background:#91BB92;}
+.header .version .logo{ height:76px; width:260px; margin:20px 0 0 10px;}
+.header .version .logo .pic{display:block; height:76px; text-indent:-9999px;background:url(../img/logo_bg_083.png) no-repeat}
+.header .version .download{width:198px; margin:10px 10px 0 0; text-align:center;}
+.header .version .download .btn{display:block; height:48px; background:url(../img/global_bg_083.png) no-repeat -8px -64px; text-indent:-9999px;}
+.header .version .download span{line-height:36px; font-size:18px; color:#00FF00;}
+.header .nav{background:url(../img/global_bg_083.png) 0px -129px repeat-x; height:108px;}
+.header .nav ui{height:108px; margin:0 auto; width:380px;}
+.header .nav li{float:left; width:20%; margin:6px 0 0; text-align:center; background:url(../img/global_bg_083.png) no-repeat right -245px; font-size:22px;}
+.header .nav li a{ color:#FFFFFF; width:90%; height:42px; line-height:42px; margin:0 auto; display:block;}
+.header .nav li a .sel{color:#00FF00; background:url(../img/global_bg_083.png) no-repeat -239px -63px;}
+
+.middle{margin:0 auto; min-height:200px;}
+#mainSearchCon{}
+.main_search_con{ position:relative; margin:0 auto; padding:10px 56px 10px 8px; text-indent:5px;-webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;}
+.main_search_con .btn_search{float:right; width:40px; height:34px; margin-right:-48px; background:url(../img/index_bg_076.png) 0 0 no-repeat;}
+.main_search_con .text_input{float:left; height:33px; line-height:33px; width:100%; text-indent:4px; color:#b4b4b4; border:1px solid #c8c8c8; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius:3px;}
+.main_search_con .btn_clear{position:absolute; right:56px; top:12px; width:32px; height:32px; background:url(../img/index_bg_076.png) -65px 0 no-repeat;}
+#bannerBox{}
+.banner_list_con{position:relative; overflow:hidden; width:320px; height:106px; margin:0 auto;}
+.banner_title_bg{position:absolute; left:0; bottom:0; width:320px; height:30px; background:#000000; opacity:0.5; z-index:1;}
